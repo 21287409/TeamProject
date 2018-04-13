@@ -1,0 +1,147 @@
+	/**** Logo & Main Navigation ****/
+	.logo a {
+			font-family: monospace;
+		font-size: 40px;
+		text-transform: uppercase;
+		text-shadow: 2px 2px 3px black;
+		color: aliceblue;
+	}
+
+	.main-navigation li a{
+		font-size: 14px;
+		font-family: monospace;
+		color: #FFFFFF;
+	}
+	.main-navigation li a:hover{
+		color: #000;
+		text-shadow: 1px 1px 2px #FFFFFF;
+	}
+
+	.main-navigation.menu .active > a{
+		background: none;
+		color: #FFFFFF;
+	}
+
+	.main-navigation.menu .active > a:hover{
+		background: none;
+		color: #000;
+	}	
+
+	.main-navigation .submenu{
+		border: 1px solid #efefef;
+		background: #1779ba;
+	}
+
+	.main-navigation .submenu .is-submenu-item.is-dropdown-submenu-item a {
+		font-size: 12px;
+	}
+
+
+	.top-bar {
+		border-top: 5px solid black;
+		margin-bottom: 40px;
+		background: #1779ba;
+	}
+
+	.top-bar .top-bar, .top-bar ul {
+		background: none;
+
+	}
+
+	/**** ProductsGrid ****/
+
+	.item-for-sale {
+		font-family: tahoma, verdana, arial;
+		text-align: center;
+	}
+	.item-for-sale:hover {
+		background-color: #ccc;
+		opacity: .8;
+	}
+
+	.item-for-sale h3{
+		font-size: 18px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.item-for-sale img{
+		width: 80%;
+		float: none;
+		border: 1px solid #777;
+		background-color: #efefef;
+		box-sizing: border-box;
+		padding: 3px;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.item-for-sale .tech-features {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.item-for-sale .tech-features li {
+		width: 100%;
+		float: left;
+		text-align: left;
+		font-size: 12px;
+		margin-bottom: 5px;
+	}
+
+	.item-for-sale .tech-features li:last-child {
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
+
+	.item-for-sale .tech-features li span {
+		display: inline-block;
+		padding-right: 10px;
+		color: #0078A0;
+		float: left;
+	}
+
+	.item-for-sale .tech-features .buy-this a input {
+		background: #008cba;
+		border: none;
+		color: white;
+		padding: 8px 25px;
+		width: 80%;
+		float: none;
+		display: inline-block;
+		border-radius: 2px;
+		cursor: pointer;
+	}
+
+	.small-8 {
+		margin-left: 10px;
+		margin-right: 750px;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+
+	.large-12 {
+		margin-left: 30px;
+		margin-right: 1200px;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+
+	.main-footer {
+		text-align: center;
+		width: 100%;
+		font-family: monospace;
+		border-bottom: 5px solid #1779ba;
+		margin-top: 20px;
+		background: black;
+		color: aliceblue;
+		padding: 4px 0;
+	}
+
+.button1 {
+	background-color: blue;
+}
